@@ -1,0 +1,859 @@
+
+
+.futuring_introduce_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 0px 184px;
+}
+
+.futuring_introduce_wrap h1{
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 56px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.futuring_introduce_wrap h1>span {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.futuring_introduce_wrap > span {
+    margin-bottom: 48px;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.futuring_introduce_wrap > div {
+    padding: 21px 61px 20px;
+    font-weight: 500;   
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    background: #FFD643;
+    border-radius: 8px;
+}
+
+.futuring_board_data{
+    display: flex;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.futuring_board_data .futuring_board_introduce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 37px;
+}
+
+.futuring_board_introduce .silver_box{
+    width: 4px;
+    height: 40px;
+    background: #FFFFFF;
+}
+
+.futuring_board_introduce span {
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.futuring_board_stats {
+    display: flex;
+    margin-right: 102px;
+}
+
+.futuring_board_stats .futuring_board_figure{
+    display: flex;
+    margin-left: 24px;;
+    flex-direction: column;
+}
+
+.futuring_board_figure span:first-child{
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.futuring_board_figure span:last-child{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.futuring_body_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.futuring_body_wrap > p {
+    margin: 160px 0 90px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+}
+
+.futuring_body_wrap .futuring_process_list {
+    display: flex;
+    margin-bottom: 38px;
+}
+
+.futuring_process_list div:not(:first-child, :last-child){
+    margin: 0 24px 0;
+}
+
+.futuring_process_list div:first-child {
+    padding : 16px 37px 15px 38px;
+    background: #004759;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.futuring_process_list div{
+    padding : 16px 37px 15px 38px;
+    border: 2px solid #004759;
+    border-radius: 100px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #004759;
+}
+
+.futuring_process_card {
+    display: flex;
+    margin-bottom: 94px;
+}
+
+/*첫 번째 */
+.futuring_process_card .futuring_first_card {
+    display: flex;
+    flex-direction: column;
+    background: #F8F8F8;
+    border-radius: 10px; 
+}
+
+.futuring_first_card .turquoise {
+    margin: 40px 20px 16px 20px;
+    align-items: center;
+    width: 260px;
+    height: 0px;
+    border: 2px solid #004759;
+}
+
+.futuring_first_card .futuring_class_number {
+    margin-left: 20px;
+    margin-bottom: 27px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #004759;
+}
+
+.futuring_first_card .futuring_card_title{
+    margin-left: 20px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.futuring_first_card .futuring_card_content{
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.futuring_first_card .futuring_card_image{ 
+    margin-top: 40px;
+    margin-bottom: 21px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+/*두 번쨰*/
+.futuring_process_card .futuring_second_card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 0;
+    background: #F8F8F8;
+    border-radius: 10px; 
+}
+
+.futuring_second_card .turquoise {
+    margin: 40px 20px 16px 20px;
+    align-items: center;
+    width: 260px;
+    height: 0px;
+    border: 2px solid #004759;
+}
+
+.futuring_second_card .futuring_class_number {
+    margin-left: 20px;
+    margin-bottom: 27px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #004759;
+}
+
+.futuring_second_card .futuring_card_title{
+    margin-left: 20px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.futuring_second_card .futuring_card_content{
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.futuring_second_card .futuring_card_image{ 
+    margin-top: 40px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+/*세 번쨰*/
+
+.futuring_process_card .futuring_last_card {
+    display: flex;
+    flex-direction: column;
+    background: #F8F8F8;
+    border-radius: 10px; 
+}
+
+.futuring_last_card .turquoise {
+    margin: 40px 20px 16px 20px;
+    align-items: center;
+    width: 260px;
+    height: 0px;
+    border: 2px solid #004759;
+}
+
+.futuring_last_card .futuring_class_number {
+    margin-left: 20px;
+    margin-bottom: 27px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #004759;
+}
+
+.futuring_last_card .futuring_card_title{
+    margin-left: 20px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.futuring_last_card .futuring_card_content{
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.futuring_last_card .futuring_card_image{ 
+    margin-top: 40px;
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+
+.futuring_service_going {
+    margin-bottom: 77px;
+}
+
+.futuring_service_going span {
+    margin-right: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #004759;
+}
+
+.futuring_indigo_background {
+    width: 100%;
+    height: 180px;
+    background: linear-gradient(90deg, #001920 0%, #004759 100%);
+}
+
+.futuring_indigo_background .futuring_indigo_counseling{
+    display: flex;
+    padding : 71px 0 71px;
+    margin : 0 auto;
+    max-width: 960px;
+    align-items: center;
+    justify-items: center;
+}
+
+.futuring_indigo_counseling span:first-child{
+    margin-right: 140px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.futuring_indigo_counseling span:last-child{
+    display: block; 
+    padding: 21px 61px 21px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+/*왜 퓨처링이어야 할까요?*/
+
+.futuring_reason_wrap {
+    display: flex;
+    flex-direction: column;
+    max-width: 1105px;
+    margin: 0 auto;
+}
+
+.futuring_reason_wrap > p {
+    margin-top: 160px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+}
+
+.futuring_chat_system {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1057px;
+    margin-top: 140px;
+}
+
+.futuring_chat_information {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 180px;
+}
+
+.futuring_chat_information .star_logo {
+    margin-top: 20px;
+    width: 36px;
+    height: 36px;
+}
+
+.futuring_chat_information p {
+    margin: 16px 0 24px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: right;
+    color: #000000;
+}
+
+.futuring_chat_information span{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: right;
+    color: #000000;
+}
+
+.smart_phone{
+    background: url("../../common/image/smart_phone.png");
+    width: 583px;
+    height: 326px;
+    border-radius: 12px;
+}
+
+/*2번째*/
+.futuring_sangdam_system {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1057px;
+    margin-top: 120px;
+}
+
+
+.futuring_sangdam_information {
+    margin-left: 180px;;    
+}
+
+.building_logo {
+    background: url("../../common/image/building_image.png");
+    width: 416px;
+    height: 460px;
+    border-radius: 12px;
+}
+
+.futuring_sangdam_information .text_image{
+    margin-top: 20px;
+}
+
+.futuring_sangdam_information p {
+    margin: 16px 0px 24px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.futuring_sangdam_system span {
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+}
+
+/*3번째*/
+.futuring_data_management {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 149px;;
+    max-width: 1057px;
+}
+
+.futuring_management_wrap {
+    display: flex;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.futuring_management_wrap .depance_logo {
+    margin-top: 20px;
+}
+
+.futuring_management_wrap p {
+    margin: 16px 0px 24px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: right;
+    color: #000000;
+}
+
+.futuring_management_wrap span{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: right;
+    color: #000000;
+}
+
+.futuring_data_management .vpn_logo_image{
+    background: url("../../common/image/vpn_image.png");
+    width : 481px;
+    height: 301px;
+} 
+
+/*진정한 있는 후기를 확인하세요*/
+.futuring_gray_background {
+    background: #F0F2F2;
+    width: 100%;
+    height: 1128px;
+}
+
+.futuring_review_box {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.futuring_review_box > p {
+    margin: 160px 0 24px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+}
+
+.futuring_review_box > span {
+    margin-bottom: 80px;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+}
+
+.futuring_review_cardbox {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1076px;
+}
+
+.futuring_review_cardbox .quotation_mark {
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    width: 36px;
+    height: 29px;
+}
+
+.first_review_box {
+
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    width: 300px;
+    height: 460px;
+    background: #FFFFFF;
+    border: 1px solid #ECF0F1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+.first_review_box > span {
+    margin-bottom: 48px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #222222;
+}
+
+.first_review_box  p{
+    margin: 0 auto;
+    text-align: left;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.review_personal_data {
+    display: flex;
+    margin-top: 80px;
+    margin-left: 24px;
+}
+
+.review_personal_information {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+}
+
+.review_personal_information span:first-child{
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+
+.review_personal_information span:last-child{
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+}
+
+.second_review_box{
+    margin: 0 58px 0;
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 500px;
+    background: #FFFFFF;
+    border: 1px solid #ECF0F1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+.second_review_box span{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #222222;
+}
+
+.second_review_box p{
+    margin: 0 auto;
+    margin-top: 48px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+}
+
+.three_review_box{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 460px;
+    background: #FFFFFF;
+    border: 1px solid #ECF0F1;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+}
+
+.three_review_box span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #222222;
+}
+
+.three_review_box p{
+    margin: 0 auto;
+    margin-top: 48px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #222222;
+}
+
+
+.selector_linear {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.selector_linear .reft_select_distinction {
+    width: 453px;
+    height: 0px;
+    border: 1px solid #D0D0D0;
+}
+
+.one_selector {
+    display: flex;
+}
+
+.one_selector div {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #D0D0D0;
+}
+
+.one_selector div:not(:first-child) {
+    margin-left: 16px;
+}
+
+.one_selector .active {
+    background: #004759;
+}
+
+.selector_linear .right_select_distinction {
+    width: 453px;
+    height: 0px;
+    border: 1px solid #D0D0D0;
+}
+
+.interview_body_wrap {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interview_body_wrap span:first-child{
+    margin-top: 160px;
+    margin-bottom: 27px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    text-align: center;
+    color: #222222;
+}
+
+.interview_body_wrap span:last-child{
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+}
+
+.main_interview_wrap {
+    
+    display: flex;
+    margin-top: 95px;
+    margin-bottom: 48px;
+    max-width: 1026px;
+}
+
+.interview_suppliers_wrap {
+    display: flex;
+    flex-direction: column;
+    margin-right: 96px;
+}
+
+.interview_suppliers_wrap .indion_small_line{
+    margin: 30px 0 16px;
+    background: #004759;
+    width: 60px;
+    height: 4px;
+}
+
+.interview_suppliers_wrap span{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #222222;
+}
+
+.lolem_setting_background {
+    position: relative;
+}
+
+.lolem_setting_background {
+    margin : 46px 0 16px;
+}
+
+.fog_lettering{
+    position: absolute;
+    left: 0px;
+}
+
+
+.interview_selector {
+    display: flex;
+}
+
+.interview_selector div {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #D0D0D0;
+}
+
+.interview_selector div:not(:first-child) {
+    margin-left: 16px;
+}
+
+.interview_selector .active {
+    background: #004759;
+}
+
+.interview_get_wrap .interview_get_out {
+    margin-right: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #004759;
+}
+
+.interview_get_wrap {
+    display: flex;
+    margin: 90px 0 95px;
+    justify-content: center;
+}
+
+.space_background {
+    background: url("../../common/image/space_background.png");
+    height: 400px;
+}
+
+/*지금 바로 퓨처링에서 IT 제품을 구매해 보세요*/
+.space_purchase_wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space_purchase_wrap span{
+    margin: 127px 0 60px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.space_request_list {
+    display: flex;
+}
+
+.space_request_list div:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+    width: 240px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.space_request_list div:last-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+    background: #FFD643;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+}
+
