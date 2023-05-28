@@ -104,7 +104,6 @@ footer
     max-width: 1103px;
     margin: 0 auto;
     padding: 57px 0 71px;
-    border-bottom: 0.5px solid #757E82;;
 }
 
 .footer_left_introduce {
@@ -167,6 +166,9 @@ footer
     color: #B4BABC;
 }
 
+.silver_footer_step {
+    border: 0.5px solid #757E82;
+}
 
 .footer_vanner_wrap {
     display: flex;

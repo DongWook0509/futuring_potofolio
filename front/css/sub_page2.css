@@ -105,6 +105,14 @@
     display: flex;
 }
 
+.left_nav_onestep > li{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #B4BABC
+}
+
 .left_nav_onestep .active {
     position: relative;
 }
@@ -152,188 +160,167 @@
 
 .right_onestep {
     display: flex;
-    margin-left: 141px;
     flex-direction: column;
     justify-content: flex-end;
+    margin-left: 210px;
 }
 
 .silver_one_step {
     border : 1px solid #F0F0F0;;
 }
 
-.sub_one_main_wrap {
+/*body*/
+
+.info_chat_system {
     display: flex;
     flex-direction: column;
-    max-width: 1032px;
-    margin: 0 auto;
-}
-
-.sub_needquestion_box{
-    display: flex;
-    flex-direction: column;
-}
-
-.sub_one_main_wrap .sub_one_title{
-    margin-top: 49px;
+    align-items: center;
     margin-bottom: 120px;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-    color: #222222; 
 }
 
 
-.sub_needquestion_box .question_togeher {
-    display: flex;
-    width: 480px;
-    height: 478px;
-    margin: 0 auto;
-}
-
-
-.futuring_need_people {
-    display: flex;
-    justify-content: space-between;
-    margin: 96px 0 48px;
-}
-
-.one_need_people {
-    display: flex;
-    width: 300px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.one_need_people > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #004759;
-    width: 48px;
-    height: 48px;
-    background: #F7F8F9;
-    border-radius: 100%;
-}
-
-.one_need_people > p {
-    margin-top: 24px;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-    color: #222222;
-}
-
-/*two*/
-.two_need_people {
-    display: flex;
-    width: 300px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.two_need_people > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #004759;
-    width: 48px;
-    height: 48px;
-    background: #F7F8F9;
-    border-radius: 100%;
-}
-
-.two_need_people > p {
-    margin-top: 24px;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-    color: #222222;
-}
-
-/*three*/
-
-.three_need_people {
-    display: flex;
-    width: 300px;
-    flex-direction: column;
-    align-items: center;
-}
-
-.three_need_people > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    color: #004759;
-    width: 48px;
-    height: 48px;
-    background: #F7F8F9;
-    border-radius: 100%;
-}
-
-.three_need_people > p {
-    margin-top: 24px;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 24px;
-    text-align: center;
-    color: #222222;
-}
-
-
-.futuring_sadari_wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.middle_futuring_logo {
-    margin: 48px 0 48px;
-}
-
-.futuring_sadari_wrap span{
-    margin-bottom: 120px;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 28px;
-    text-align: center;
-    color: #222222;
-}
-.futuring_list_wrap {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.futuring_list_wrap span {
-    margin: 120px 0 120px;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-    color: #222222;
-
-}
-.futuring_middle_list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.futuring_middle_list .futuring_yiyong_button{
+.info_chat_system > h1{
     margin: 120px 0 115px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #222222;
+}
+
+.info_chat_box {
+    display: flex;
+}
+
+.info_chat_leftbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 120px 90px 285px 0px;
+}
+
+.quotation_inquiry {
+    margin-bottom: 16px;
+}
+
+.quotation_inquiry span {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #002B36;
+}
+
+.quotation_inquiry img {
+    margin-left: 232px;
+}
+
+.quotation_inquiry_description {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #616A6D;
+    background: #F7F8F9;
+    border-radius: 10px;
+    padding: 16px 18px 21px 20px;
+    margin-bottom: 40px;
+}
+
+.inquiry_chat_sangdam {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inquiry_chat_sangdam span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #B4BABC;
+}
+
+.inquiry_chat_sangdam {
+    margin-bottom: 60px;
+}
+
+.inquiry_chat_sangdam img{
+    margin-left: 136px;
+}
+
+.widgets_provision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.widgets_provision span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #B4BABC;
+}
+
+.widgets_provision img{
+    margin-left: 240px;
+}
+
+.ordering_system_surpport {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ordering_system_surpport span{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #002B36;
+}
+
+.ordering_system_surpport img {
+    margin-left: 125px;
+}
+
+.product_interest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 503px;
+    margin: 0 auto;
+}
+
+.product_interest span {
+
+    margin-top: 120px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #222222;
+
+}
+
+.product_interest p {
+    margin: 60px 0 19px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #222222;
+}
+
+.product_interest div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+    width: 240px;
+    height: 60px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #222222;
+    background: #FFD643;
+    border-radius: 10px;
 }
