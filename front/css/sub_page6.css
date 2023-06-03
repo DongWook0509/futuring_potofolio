@@ -1,0 +1,257 @@
+.dashed_line_wrap{
+    border-bottom: 2px dashed gray;
+}
+
+.sub_header_wrap .futuring_nav_wrap
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 20px;
+    max-width: 1113px;
+    margin: 0 auto;
+}
+
+.sub_header_wrap  .futuring_middle_wrap
+{
+    display: flex;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #222222;
+}
+
+.sub_header_wrap  .futuring_middle_wrap > li:not(:first-child){
+    padding-left: 40px;
+}
+
+
+.sub_header_wrap .futuring_login_wrap
+{
+    display: flex;
+    align-items: center;
+}
+
+.sub_header_wrap .futuring_login_wrap li:first-child
+{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #222222;
+}
+
+.sub_header_wrap .futuring_login_wrap li:last-child
+{   
+    padding : 12px 21px 11px 22px;
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+
+.sub_header_wrap .futuring_login_wrap li>a:last-child
+{   
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.futuring_login_wrap > li:last-child
+{
+    margin-left: 21px;
+}
+
+/*body*/
+.news_report_wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news_report_wrap > h1 {
+    margin-top: 120px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 67px;
+    text-align: center;
+    color: #222222;
+}
+
+.news_report_wrap > span {
+    margin: 24px 0 180px;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    color: #222222;
+}
+
+.news_sliver_gray_line {
+    margin-bottom: 80px;
+    width: 100%;
+    height: 1px;
+    background: #F0F0F0;
+}
+
+.news_report_box {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+.one_middle_report_new{
+    display: flex;
+    margin-bottom: 114px;
+}
+
+.two_report_box{ 
+    margin: 0 60px 0 50px;
+}
+
+.five_report_box {
+    margin: 0 60px 0 50px;
+}
+
+.two_middle_report_new{
+    display: flex;
+}
+
+.one_report_box p {
+    margin: 40px 0 30px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+}
+.two_report_box p {
+    margin: 40px 0 30px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+}
+.three_report_box p {
+    margin: 40px 0 30px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+}
+.four_report_box p {
+    margin: 40px 0 30px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+}
+.five_report_box p {
+    margin: 40px 0 30px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+}
+.six_report_box p {
+    margin: 40px 0 30px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 31px;
+    color: #222222;
+}
+
+
+.one_report_box span {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+}
+.two_report_box span {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+}
+.three_report_box span {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+}
+.four_report_box span {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+}
+.five_report_box span {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+}
+.six_report_box span {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #999999;
+}
+
+.futuring_pageing_wrap {
+    display: flex;
+    justify-content: center;
+    margin: 120px 0 120px;
+}
+
+.page_wrap_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_wrap_box div:not(:first-child, :last-child){
+    margin-right: 27px;
+}
+
+.gray_left_arrow{
+    margin-right: 28px;
+}
+    
+
+.page_wrap_box .active{
+    margin-right: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    background: #E0E0E0;
+    border-radius: 4px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+
+
+.right_arrow {
+    width: 28px;
+    height: 28px;
+    
+    background: #F0F0F0;
+    border-radius: 4px;
+
+    margin-left: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

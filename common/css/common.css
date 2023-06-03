@@ -31,6 +31,10 @@ Header
     margin: 0 auto;
 }
 
+.futuring_nav_wrap .menu_mobile{
+    display: none;
+}
+
 .futuring_header_wrap  .futuring_middle_wrap
 {
     display: flex;

@@ -1,4 +1,7 @@
 
+.futuring_header_wrap {
+    background: url("../../common/image/futuring_header.png")
+}
 
 .futuring_introduce_wrap {
     display: flex;
@@ -17,7 +20,7 @@
     color: #FFFFFF;
 }
 
-.futuring_introduce_wrap h1>span {
+.futuring_introduce_wrap .h1_edge {
     font-weight: 500;
     font-size: 56px;
     line-height: 78px;
@@ -49,6 +52,7 @@
     display: flex;
     max-width: 1240px;
     margin: 0 auto;
+    padding-bottom: 78px;
 }
 
 .futuring_board_data .futuring_board_introduce{
@@ -64,7 +68,7 @@
     background: #FFFFFF;
 }
 
-.futuring_board_introduce span {
+.futuring_board_introduce .futuring_board_title{
     margin-left: 10px;
     font-weight: 200;
     font-size: 14px;
@@ -72,18 +76,27 @@
     color: #FFFFFF;
 }
 
-.futuring_board_stats {
+.futuring_board_introduce .futuring_mobile_title{
+    display: none;
+}
+
+.futuring_board_wrap {
+    display: flex;
+}
+
+/*one*/
+.futuring_board_stats_one {
     display: flex;
     margin-right: 102px;
 }
 
-.futuring_board_stats .futuring_board_figure{
+.futuring_board_stats_one .futuring_board_figure_one{
     display: flex;
     margin-left: 24px;;
     flex-direction: column;
 }
 
-.futuring_board_figure span:first-child{
+.futuring_board_figure_one span:first-child{
     margin-bottom: 12px;
     font-style: normal;
     font-weight: 600;
@@ -92,12 +105,75 @@
     color: #FFFFFF;
 }
 
-.futuring_board_figure span:last-child{
+.futuring_board_figure_one span:last-child{
     font-weight: 200;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
 }
+
+/*two*/
+
+.futuring_board_stats_two {
+    display: flex;
+    margin-right: 102px;
+}
+
+.futuring_board_stats_two .futuring_board_figure_two{
+    display: flex;
+    margin-left: 24px;;
+    flex-direction: column;
+}
+
+.futuring_board_figure_two span:first-child{
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.futuring_board_figure_two span:last-child{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+/*three*/
+
+.futuring_board_stats_three {
+    display: flex;
+}
+
+.futuring_board_stats_three .futuring_board_figure_three{
+    display: flex;
+    margin-left: 24px;;
+    flex-direction: column;
+}
+
+.futuring_board_figure_three span:first-child{
+    margin-bottom: 12px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+
+.futuring_board_figure_three span:last-child{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+
+/**/
+
+
+
 
 .futuring_body_wrap {
     display: flex;
@@ -105,6 +181,10 @@
     align-items: center;
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.futuring_body_wrap >p br {
+    display: none;
 }
 
 .futuring_body_wrap > p {
@@ -325,18 +405,22 @@
     background: linear-gradient(90deg, #001920 0%, #004759 100%);
 }
 
+.futuring_indigo_counseling br {
+    display: none;
+}
+
 .futuring_indigo_background .futuring_indigo_counseling{
+    padding: 60px 0 60px;
     display: flex;
-    padding : 71px 0 71px;
     margin : 0 auto;
     max-width: 960px;
-    align-items: center;
-    justify-items: center;
+    justify-content: space-between;
 }
 
 .futuring_indigo_counseling span:first-child{
-    margin-right: 140px;
-    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     font-weight: 500;
     font-size: 32px;
     line-height: 38px;
@@ -344,7 +428,6 @@
 }
 
 .futuring_indigo_counseling span:last-child{
-    display: block; 
     padding: 21px 61px 21px;
     background: #FFFFFF;
     border-radius: 8px;
@@ -408,6 +491,10 @@
     line-height: 27px;
     text-align: right;
     color: #000000;
+}
+
+.smartphone_mobile {
+    display: none;
 }
 
 .smart_phone{
@@ -511,6 +598,10 @@
     flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.futuring_review_box > p br {
+    display: none;
 }
 
 .futuring_review_box > p {
@@ -666,7 +757,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 32px;
+    margin-top: 24px;
+    margin-bottom: 202px;
 }
 
 .selector_linear .reft_select_distinction {
@@ -707,6 +799,10 @@
     align-items: center;
 }
 
+.interview_body_wrap span br {
+    display: none;
+}
+
 .interview_body_wrap span:first-child{
     margin-top: 160px;
     margin-bottom: 27px;
@@ -719,10 +815,9 @@
 
 .interview_body_wrap span:last-child{
     font-weight: 200;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 24px;
     text-align: center;
-    color: #222222;
 }
 
 .main_interview_wrap {
@@ -736,7 +831,7 @@
 .interview_suppliers_wrap {
     display: flex;
     flex-direction: column;
-    margin-right: 96px;
+    margin-right: 0;
 }
 
 .interview_suppliers_wrap .indion_small_line{
@@ -857,3 +952,558 @@
     color: #222222;
 }
 
+
+/*모바일 시작*/
+
+@media screen and (max-width: 360px) {
+
+    .futuring_header_wrap .futuring_nav_wrap{
+        display: flex;
+        justify-content: space-between;
+        max-width: 312px;
+    }
+
+    .futuring_header_wrap .futuring_middle_wrap{
+        display: none;
+    }
+
+    .futuring_header_wrap .futuring_login_wrap {
+        display: none;
+    }
+
+    .futuring_nav_wrap .menu_mobile {
+        display: block;
+    } 
+
+    .futuring_introduce_wrap {
+        margin: 80px 0 107px;
+    }
+
+    .futuring_introduce_wrap h1{
+        font-weight: 200;
+        font-size: 34px;
+        line-height: 51px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .futuring_introduce_wrap .h1_edge {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 51px;
+        text-align: center;
+        color: #FFFFFF
+    }
+
+    .futuring_introduce_wrap span br{
+        display: none;
+    }
+
+    .futuring_introduce_wrap > span {
+        padding : 0 40px 0;
+    }
+
+    .futuring_board_data {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    
+    .futuring_board_introduce .futuring_board_title{
+        display: none;
+    }
+    .futuring_board_introduce .silver_box{
+        margin-right: 9px;
+    }
+
+    .futuring_board_introduce .futuring_mobile_title{
+        display: block;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 13px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    
+    .futuring_process_card {
+        display: flex;
+        margin-bottom: px;
+    }
+
+    .futuring_board_wrap {
+        width: 210px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0 auto;
+        padding: 65px 0 78px ;
+    }
+
+    .futuring_board_stats_one {
+        margin-right: 0;
+    }
+
+    .futuring_board_stats_two {
+        margin: 60px 0 60px;
+    }
+
+    /*2번째 챕터*/
+    .futuring_body_wrap >p br {
+        display: block;
+    }
+
+    .futuring_body_wrap p{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .futuring_body_wrap .futuring_process_list {
+        max-width: 312px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 46px;
+    }   
+
+    .futuring_process_list div:first-child{
+        padding: 0;
+        font-weight: 200;
+        font-size: 14px;
+        text-align: center;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 40px;
+    }
+
+    .futuring_process_list div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        width: 150px;
+        height: 40px;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #004759;
+    }
+
+    .futuring_process_list div:last-child{
+        margin-top: 24px;
+    }
+
+    .futuring_process_list div:not(:first-child, :last-child){
+        margin: 0 ;
+    }
+    
+    .futuring_process_card .futuring_second_card {
+        display: none;
+    }
+
+    .futuring_process_card .futuring_last_card {
+        display: none;
+    }
+
+    .futuring_service_going {
+        display: none;
+    }
+
+    .futuring_indigo_counseling br {
+        display: block;
+    }
+
+    .futuring_indigo_background{
+        padding: 36px 0 40px;
+        height: 100%;
+    }
+
+    .futuring_indigo_background .futuring_indigo_counseling {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .futuring_indigo_counseling span:first-child{
+        padding-bottom: 52px;
+        font-weight: 200;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #FFFFFF
+    }
+    
+    .futuring_indigo_counseling span:last-child{
+        margin: 0 auto;
+        width: 200px;
+        height: 44px;
+        padding: 14px 35px 13px;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+    }
+
+    /*2023/06/03*/
+    .futuring_reason_wrap >  p {
+        display: none;
+    }
+    
+    .futuring_chat_system {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .futuring_chat_information {
+        margin-right: 16px;
+    }
+    
+    .futuring_chat_information .star_logo {
+        margin-top: 0px;
+        width: 36px;
+        height: 36px;
+    }
+    
+    .futuring_chat_information p {
+        margin: 16px 0 24px;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: right;
+        color: #000000;
+    }
+    
+    .futuring_chat_information span{
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 27px;
+        text-align: right;
+        color: #000000;
+    }
+    
+    .smart_phone{
+        display: none;
+    }
+
+    .smartphone_mobile{
+        display: block;
+        margin-top: 140px;
+    }
+
+    .futuring_sangdam_system {
+        display: none;
+    }
+    
+    .futuring_data_management{
+        display: none;
+    }
+
+    /*진정한 있는 후기를 확인하세요*/
+    .futuring_gray_background {
+        height: 100%;
+        background: #FFFFFF;
+    }
+
+    .futuring_review_box {
+        display: flex;
+        flex-direction: column;
+        /*  max-width: 1200px;*/
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .futuring_review_box > p br {
+        display: block;
+    }
+
+    .futuring_review_box > p {
+        margin: 160px 0 24px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .futuring_review_box > span {
+        margin-bottom: 80px;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .futuring_review_cardbox {
+        display: flex;
+        max-width: 1076px;
+    }
+
+    .futuring_review_cardbox .quotation_mark {
+        margin: 0 auto;
+        margin-top: 32px;
+        margin-bottom: 24px;
+        width: 36px;
+        height: 29px;
+    }
+
+    .first_review_box {
+
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+        width: 300px;
+        height: 460px;
+        background: #FFFFFF;
+        border: 1px solid #ECF0F1;
+        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.08);
+        border-radius: 12px;
+    }
+
+    .first_review_box > span {
+        margin-bottom: 48px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #222222;
+    }
+
+    .first_review_box  p{
+        margin: 0 auto;
+        text-align: left;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 24px;
+        color: #222222;
+    }
+
+    .review_personal_data {
+        display: flex;
+        margin-top: 80px;
+        margin-left: 24px;
+    }
+
+    .review_personal_information {
+        display: flex;
+        flex-direction: column;
+        margin-left: 16px;
+    }
+
+    .review_personal_information span:first-child{
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #222222;
+    }
+
+    .review_personal_information span:last-child{
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 14px;
+        color: #999999;
+    }
+
+
+    .second_review_box {
+        display: none;
+    }
+
+    .three_review_box{
+        display: none;
+    } 
+
+    .selector_linear {
+        margin: 0 auto;
+        max-width: 312px;
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+        padding: 24px 0  202px;
+    }
+    
+    .prev {
+        width: 24px;
+        height: 24px;
+    }
+
+    .selector_linear .reft_select_distinction {
+        margin: 0 12px 0;
+        width: 56px;
+        height: 0px;
+        border: 1px solid #D0D0D0;
+    }
+    
+    .one_selector {
+        display: flex;
+    }
+    
+    .one_selector div {
+        width: 7px;
+        height: 7px;
+        border-radius: 100%;
+        background: #D0D0D0;
+    }
+    
+    .one_selector div:not(:first-child) {
+        margin-left: 16px;
+    }
+    
+    .one_selector .active {
+        background: #004759;
+    }
+    
+    .selector_linear .right_select_distinction {
+        margin: 0 12px 0;
+        width: 56px;
+        height: 0px;
+        border: 1px solid #D0D0D0;
+    }
+
+    .next {
+        width: 24px;
+        height: 24px;
+    }
+
+    /*퓨처링에서 만날 수 있는 기업*/
+
+    .interview_body_wrap {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .interview_body_wrap span br {
+        display: block;
+    } 
+
+    .interview_body_wrap >  span {
+        text-align: center;
+    }
+
+    .interview_body_wrap span:first-child{
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        color: #000000;
+    }
+    
+    .interview_body_wrap span:last-child{
+        display: flex;
+        font-size: 14px;
+        line-height: 24px;
+        color: #000000
+    }
+    
+    .main_interview_wrap {
+        
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+       /*  margin-top: 95px;
+        margin-bottom: 48px; */
+        width: 100%;
+    }
+    
+    .interview_suppliers_wrap {
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+    }
+    
+    .interview_suppliers_wrap .indion_small_line{
+        margin: 80px 0 16px;
+        background: #004759;
+        width: 60px;
+        height: 4px;
+    }
+    
+    .interview_suppliers_wrap span{
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #222222;
+    }
+
+    .lolem_setting_background {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        margin : 47px 0 40px;
+    }
+   
+    .lolem{
+        margin: 0 auto;
+        width: 328px;
+        height: 198px;
+    }
+    
+    .fog_lettering{
+        position: absolute;
+        margin: 0 auto;
+        width: 328px;
+        height: 198px;
+        top: 0px;
+        right: 0;
+    }
+
+    .interview_selector {
+        margin: 24px 0 60px;
+    } 
+    .interview_selector div {
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+        background: #D0D0D0;
+    }
+    
+    .interview_selector div:not(:first-child) {
+        margin-left: 16px;
+    }
+    
+    .interview_selector .active {
+        background: #004759;
+    }
+
+    .interview_get_wrap .interview_get_out {
+        margin-right: 16px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #004759;
+    }
+    
+    .interview_get_wrap {
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+        margin-bottom: 84px;
+    }
+
+    .space_background {
+        display: none;
+    }
+
+    .footer_main_wrap {
+        display: none;
+    }
+}
