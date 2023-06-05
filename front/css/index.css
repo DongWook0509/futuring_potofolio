@@ -37,7 +37,7 @@
     color: #FFFFFF;
 }
 
-.futuring_introduce_wrap > div {
+.futuring_introduce_wrap > button {
     padding: 21px 61px 20px;
     font-weight: 500;   
     font-size: 16px;
@@ -400,6 +400,8 @@
 }
 
 .futuring_indigo_background {
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 180px;
     background: linear-gradient(90deg, #001920 0%, #004759 100%);
@@ -409,15 +411,14 @@
     display: none;
 }
 
+
 .futuring_indigo_background .futuring_indigo_counseling{
-    padding: 60px 0 60px;
     display: flex;
-    margin : 0 auto;
-    max-width: 960px;
     justify-content: space-between;
+    padding: 60px 0;
 }
 
-.futuring_indigo_counseling span:first-child{
+.futuring_indigo_counseling span{
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -427,9 +428,10 @@
     color: #FFFFFF;
 }
 
-.futuring_indigo_counseling span:last-child{
-    padding: 21px 61px 21px;
-    background: #FFFFFF;
+.futuring_indigo_counseling button{
+    margin-left: 142px;
+    height: 60px;
+    width: 270px;
     border-radius: 8px;
     font-weight: 500;
     font-size: 16px;
@@ -834,6 +836,10 @@
     margin-right: 0;
 }
 
+.lookat_people {
+    margin-left: 94px;
+}
+
 .interview_suppliers_wrap .indion_small_line{
     margin: 30px 0 16px;
     background: #004759;
@@ -850,11 +856,9 @@
 
 .lolem_setting_background {
     position: relative;
-}
-
-.lolem_setting_background {
     margin : 46px 0 16px;
 }
+
 
 .fog_lettering{
     position: absolute;
@@ -921,7 +925,7 @@
     display: flex;
 }
 
-.space_request_list div:first-child{
+.space_request_list button:first-child{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -937,7 +941,7 @@
     border-radius: 10px;
 }
 
-.space_request_list div:last-child{
+.space_request_list button:last-child{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1126,12 +1130,12 @@
 
     .futuring_indigo_background .futuring_indigo_counseling {
         display: flex;
-        width: 100%;
         flex-direction: column;
+        align-items: center;
         padding: 0;
     }
 
-    .futuring_indigo_counseling span:first-child{
+    .futuring_indigo_counseling span{
         padding-bottom: 52px;
         font-weight: 200;
         font-size: 24px;
@@ -1140,17 +1144,18 @@
         color: #FFFFFF
     }
     
-    .futuring_indigo_counseling span:last-child{
-        margin: 0 auto;
-        width: 200px;
+    .futuring_indigo_counseling button{
+        margin: 0;
         height: 44px;
-        padding: 14px 35px 13px;
-        font-weight: 200;
-        font-size: 14px;
-        line-height: 17px;
+        width: 200px;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
         text-align: center;
         color: #000000;
     }
+    
 
     /*2023/06/03*/
     .futuring_reason_wrap >  p {
@@ -1381,7 +1386,6 @@
 
     .interview_body_wrap {
         display: flex;
-        margin: 0 auto;
         flex-direction: column;
         align-items: center;
     }
@@ -1468,6 +1472,14 @@
     .interview_selector {
         margin: 24px 0 60px;
     } 
+
+    .lookat_people {
+        height: 227px;
+        width: 328px;
+        border-radius: 20px;
+        margin: 0 auto;
+    }
+
     .interview_selector div {
         width: 8px;
         height: 8px;
