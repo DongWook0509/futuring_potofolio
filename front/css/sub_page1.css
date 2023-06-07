@@ -136,16 +136,15 @@
 }
 
 .left_nav_onestep > .active > a::after{
+    display: block;
     content: "";
     position: absolute;
-    border-radius: 0.5px;
+    border-radius: 100%;
     top : -10px;
     right: -8px;
-    display: block;
     width: 10px;
     height: 10px;
     background: #004759;
-    border-radius: 0.5px;
 }
 
 .right_onestep {
