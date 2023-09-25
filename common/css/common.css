@@ -1,0 +1,239 @@
+/* =================================================================== 
+Common
+=================================================================== */
+
+* {
+    font-family: 'S-Core Dream';
+}
+
+
+
+
+
+
+
+/* =================================================================== 
+Header
+=================================================================== */
+
+
+.dashed_line_wrap{
+    border-bottom: 2px dashed gray;
+}
+
+.futuring_header_wrap .futuring_nav_wrap
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0 ;
+    max-width: 1113px;
+    margin: 0 auto;
+}
+
+.futuring_nav_wrap .menu_mobile{
+    display: none;
+}
+
+.futuring_header_wrap  .futuring_middle_wrap 
+{
+    display: flex;
+}
+
+.futuring_header_wrap  .futuring_middle_wrap > li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.futuring_middle_wrap img {
+    margin-left: 6px;
+}
+
+.futuring_header_wrap  .futuring_middle_wrap li > a {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.futuring_header_wrap  .futuring_middle_wrap > li:not(:first-child){
+    padding-left: 40px;
+}
+
+
+.futuring_header_wrap .futuring_login_wrap
+{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.futuring_header_wrap .futuring_login_wrap li>a:first-child
+{   
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.futuring_header_wrap .futuring_login_wrap button
+{   
+   margin-left: 21px; 
+    height: 40px;
+    width: 142px;
+    border-radius: 100px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+/* =================================================================== 
+footer 
+=================================================================== */
+
+
+
+
+.footer_main_wrap {
+    background: #00222A;
+}
+
+.footer_main_wrap .footer_info_wrap {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1103px;
+    margin: 0 auto;
+    padding: 57px 0 71px;
+}
+
+.footer_left_introduce {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.footer_left .footer_personal_information{
+    margin-top: 25px;
+}
+
+.footer_left_introduce > span {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757E82;
+}
+
+.footer_personal_information .person_intriduce > a{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color:#F7F8F9;
+}
+
+.footer_personal_information .perosn_conditions > a{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757E82;
+}
+
+.footer_right > ul {
+    display: flex;
+}
+
+.footer_right > ul > li:not(:last-child){
+    display: flex;
+    flex-direction: column;
+    margin-right: 48px;
+}
+
+.footer_right > ul > li > span:first-child{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F7F8F9;
+    margin-bottom: 28px;
+}
+
+.footer_right > ul > li > span:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.footer_right > ul > li > span > a{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B4BABC;
+}
+
+.silver_footer_step {
+    border: 0.5px solid #757E82;
+}
+
+.footer_vanner_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 24px 0 29px;
+    max-width: 1108px;
+}
+
+.footer_vanner_left span{
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 24px;
+    color: #757E82;
+}
+
+.footer_vanner_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_vanner_left div {
+    margin: 0 24px 0 11px;
+    width: 0px;
+    height: 20px;
+    border: 0.5px solid #757E82;
+}
+
+.footer_vanner_left img:not(:last-child){
+    margin-right: 15px;
+}
+
+
+.footer_vanner_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_vanner_right > span{
+    margin-right: 63px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #757E82;
+}
+
+.footer_vanner_right div > span {
+    margin-right: 19px;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 17px;
+    color: #B4BABC;
+}
