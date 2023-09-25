@@ -959,12 +959,12 @@
 
 /*모바일 시작*/
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 768px) {
 
     .futuring_header_wrap .futuring_nav_wrap{
         display: flex;
         justify-content: space-between;
-        max-width: 312px;
+        max-width: 90%;
     }
 
     .futuring_header_wrap .futuring_middle_wrap{
